@@ -1,0 +1,35 @@
+{
+  "name": "realtors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p %PORT%",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akdombrowski/realtors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akdombrowski/realtors/issues"
+  },
+  "homepage": "https://github.com/akdombrowski/realtors#readme",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.13",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.2.2",
+    "typescript": "^3.7.2"
+  }
+}
